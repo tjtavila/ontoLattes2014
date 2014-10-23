@@ -1,0 +1,3572 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2014/5/onto_Lattes_2014"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/usuario/ontologies/2014/5/onto_Lattes_2014">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AcessoriaeConsultoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenciadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AreasdeAtuação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtesCênicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtesVisuais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçaoExtensão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atuação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoConselhosComissõeseConsultoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoDirAdm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoEnsino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoEstagio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoOutraAtividadeTecnicoCientifica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoP&amp;D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoSerTecRealizado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtuaçãoTreinamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bancas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CartasMapasSimilares"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citações"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CursodeCurtaDuraçãoMinistrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DadosPessoais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DadosdoNascimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesenvolvimentodeMaterialDidaticoouInstitucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editoração"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endereco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnderecoComercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnderecoEletronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnderecoResidencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntrevistasMesasRedondaProgramaseComentariosnaMidia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eventos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtensãoTecnologica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filiacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormacaoComplementar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormacaoPrimeiroSegundoGrau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormacaoRegular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graduacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identificacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idiomas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inovação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstituicaoEnsino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instituição"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LivreDocencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LivroseCapitulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManutençãodeObraArtistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maquete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MestradoDoutorado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Músicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientações"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutraFormaContatoEletronico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outra_ProduçãoArtistica/Cultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutrasProduçõesTecnicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartituraMusical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passaporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatenteseRegistros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pesquisador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosDoutorado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prefácio/posfácio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PremiosTitulos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessosouTecnicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produtos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProduçãoTecnica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produções"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfissionalizanteTecnico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgramadeComputadorSemRegistro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Projetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedeSocial/WebSite/Blogs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedesSociais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelatóriodePesquisa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResidenciaMedica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RevisorPeriodico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telefone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TitulodaOrientação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TitulodaProdução"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrabalhosTecnologicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tradução"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VinculoFuncional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assessordeAgenicadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atuaemQualInstituição"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atuaemQualUnidadeNegócioInstituição"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conquistou"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coordenaProjeto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desempenhou"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eCoordenadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eIdentificadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eLocalizadoEletronicamentePor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eLocalizadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eOfertadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eOrientadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eproduzidopor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instituiçãoFinanciadora"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#localiza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#localizaEletronicamente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#noCurso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofertaFormacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#orienta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participaEmProjeto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#podeFinanciarFormacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#podeSerFinanciado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#podeSerRevisor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#podeTerPassaporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#revisordeAgenciaFomento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem(em)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temAtuacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temDadosNascimento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temDadosPessoais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temFiliacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temFinanciadora"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temFormacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temFuncionario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temIdentidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temInstituiçõesEnvolvidas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPassaporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPesquisador"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPremiacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temProficienciaEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trabalhaEm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CEP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CNPJEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CPF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CodigoEnderecamentoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CodigoPeriodico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#D.O.I"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DDD"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EstagioRealizado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ISBN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ISSN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InstituiçãodeExecução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OtherInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OutrasInformaçoesSobreAInstituiçao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OutrasInformações"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PossuiDedicaçaoExclusiva"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoConclusaoCurso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoDeInicioDoVinculo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoDeTerminoDoVinculo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoFim"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoInicialCurso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoInicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoObtencaoTitulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoPremiacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoPrevistoPublicação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoProdução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#areadoConhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#areasConhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#areasdeConhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atividadedeExtençãoRealizada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atuaAtualmenteNestaInstituição"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atuaAtualmentenoComite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atuaAtualmentenoCorpoEditorialdestePeriodico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#autorPublicação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#autorTraduzido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#autores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bairro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cadastroPessoaFisica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cargaHoraria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cargaHorariaSemanal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cargo/função"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cidadeEditora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cidadeEditoraTraduçãi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cidadeEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#classificaçãodoEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#codigoDiscagemDiretaDistancia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comBolsa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contaFacebook"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#códigodoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataEmissao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataNascimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataPublicação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataValidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descripion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descriçao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disciplinasMinistradas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#e-mailInstitucional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eEnderecodeCorrespondencia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#editora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#editoraTradução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enderecoEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enderecoFormaContatoEletronico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enderecoRedeSocial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enquadramentoFuncional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#entidadePromotora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eumdos5trabalhosmaisrelevantesdesuaprodução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fascículo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fascículoEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formaçãoInstrumental"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#homePageEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#homePagePessoal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#homepageProdução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#idiomaObraOriginal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#idiomaProdução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#incluirNovaAreadeConhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#incluirNovaPalavraChave"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#incluirnovoAutor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#instituiçãoPromotoraEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linhasdePesquisa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#listarTodosAreasdeConhecimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#listarTodosAutores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#listarTodosPalavrasChave"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#listarTodosSetoresTabelaCNAE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#livroPublicado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localPublicação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#logradouro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mesDeInicioDeVinculo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mesDeTerminoDeVinculo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mesObtencaoTitulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#natureza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelEnsino"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelFormacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeAgenciaFinanciadora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeCitacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeCompleto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeCompletoCoOrientador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeCompletoOrientador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeCurso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeEditora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeInstituicao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeMae"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomePai"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomePremioTitulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomedaAgenciadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomedaÁreadeAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomedoCurso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomedoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#num.Edição/Revisão"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroCaixaPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroCatálogo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroIdentidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPaginas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPassaporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroRegistro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroTelefone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroVolumes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#oProjetoPossuiPotencialdeInovaçãodeProdutosProcessosouServicos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ordemArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ordemAutoria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ordemPalavrasChave"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ordemSetores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ordemdeImportancia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#organizaçãodeObraPublicada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orgaoEmissor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orgão/Unidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#otherInformationProduções"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#outraAtividadeTecnicoCientifica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#outrasInformaçõesProduções"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paginaFinal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paginaincial/num.ArtigoEletronico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#palavraChave"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#palavrasChave"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#país"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paísPublicação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paísdaAgenciadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#periodico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#possuiVinculoEmpregaticio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#projectName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualPotencialdeInovaçãodoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantidadedeAlunosdeDoutoradonoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantidadedeAlunosdeEspecializaçãonoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantidadedeAlunosdeGraduaçãonoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoAcadêmiconoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoProfissionalizantenoProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ramal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#residenciaMedicaEm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#serie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#serviçoRealizado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#setor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#setordeAplicaçãodaTabelaCNAE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#setoresAplicacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sexo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#siglaAgenciaFinanciadora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#siglaInstituicao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sigladaAgenciadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#situação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#statusCurso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPremio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoDeAtuação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoDoVinculo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoFormaContatoEletronico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoFormacaoStrictuSensu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoRedeSocial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipodeProjeto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titleProduções"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloAnaisEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloDissertacaoTese"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloMonografia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloObraOriginal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloProdução"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tituloTrabalho"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titulodoJonal/RevistaemqueoTextofoiPublicado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titulodoPeriodico/revistaemqueoArtigofoiPublicado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trabalhaAtualmenteNestaInstituiçao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#treinamentoMinistrado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadeFederativa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadeFederativadaAgenciadeFomento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unidadeNegocioEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valorFinanciado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vinculadoaInstutuição"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#éumProjetodeCoorperaçãoInstituiçãodePesquisaeEmpresa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emailPessoal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emailProfissional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoAperfeicoamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoDoutorado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoEspecializacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoMestradoAcadêmico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoMestradoProfissionalizante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoPrimeiroGrau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formacaoSegundoGrau"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcessoriaeConsultoria"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtesCênicas"/>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtesVisuais"/>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçaoExtensão"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoConselhosComissõeseConsultoria"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoDirAdm"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoEnsino"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoEstagio"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoOutraAtividadeTecnicoCientifica"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoP&amp;D"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoSerTecRealizado"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtuaçãoTreinamento"/>
+        <Class IRI="#Atuação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CartasMapasSimilares"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CursodeCurtaDuraçãoMinistrado"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesenvolvimentodeMaterialDidaticoouInstitucional"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Editoração"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#EnderecoEletronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnderecoComercial"/>
+        <Class IRI="#Endereco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnderecoResidencial"/>
+        <Class IRI="#Endereco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntrevistasMesasRedondaProgramaseComentariosnaMidia"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtensãoTecnologica"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormacaoComplementar"/>
+        <Class IRI="#Formacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormacaoPrimeiroSegundoGrau"/>
+        <Class IRI="#FormacaoRegular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormacaoRegular"/>
+        <Class IRI="#Formacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+        <Class IRI="#FormacaoRegular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graduacao"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LivreDocencia"/>
+        <Class IRI="#Formacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LivroseCapitulos"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManutençãodeObraArtistica"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maquete"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MestradoDoutorado"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Músicas"/>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutraFormaContatoEletronico"/>
+        <Class IRI="#EnderecoEletronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+        <Class IRI="#Produções"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outra_ProduçãoArtistica/Cultural"/>
+        <Class IRI="#OutraProduçãoArtistica/Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutrasProduçõesTecnicas"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartituraMusical"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosDoutorado"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prefácio/posfácio"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessosouTecnicas"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Produtos"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProduçãoBibliográfica"/>
+        <Class IRI="#Produções"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProduçãoTecnica"/>
+        <Class IRI="#Produções"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProfissionalizanteTecnico"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgramadeComputadorSemRegistro"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedeSocial/WebSite/Blogs"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedesSociais"/>
+        <Class IRI="#EnderecoEletronico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelatóriodePesquisa"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResidenciaMedica"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextoemJornalouRevista"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+        <Class IRI="#ProduçãoBibliográfica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrabalhosTecnologicos"/>
+        <Class IRI="#ProduçãoTecnica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tradução"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Email"/>
+        <NamedIndividual IRI="#emailPessoal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Email"/>
+        <NamedIndividual IRI="#emailProfissional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+        <NamedIndividual IRI="#formacaoAperfeicoamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MestradoDoutorado"/>
+        <NamedIndividual IRI="#formacaoDoutorado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+        <NamedIndividual IRI="#formacaoEspecializacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MestradoDoutorado"/>
+        <NamedIndividual IRI="#formacaoMestradoAcadêmico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MestradoDoutorado"/>
+        <NamedIndividual IRI="#formacaoMestradoProfissionalizante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormacaoPrimeiroSegundoGrau"/>
+        <NamedIndividual IRI="#formacaoPrimeiroGrau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FormacaoPrimeiroSegundoGrau"/>
+        <NamedIndividual IRI="#formacaoSegundoGrau"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enderecoEmail"/>
+        <NamedIndividual IRI="#emailProfissional"/>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEmail"/>
+        <NamedIndividual IRI="#emailProfissional"/>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#podeTerPassaporte"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eIdentificadoPor"/>
+        <ObjectProperty IRI="#identifica"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eLocalizadoEletronicamentePor"/>
+        <ObjectProperty IRI="#localizaEletronicamente"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eLocalizadoPor"/>
+        <ObjectProperty IRI="#localiza"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eOfertadoPor"/>
+        <ObjectProperty IRI="#ofertaFormacao"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#podeSerFinanciado"/>
+        <ObjectProperty IRI="#podeFinanciarFormacao"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assessordeAgenicadeFomento"/>
+        <Class IRI="#AgenciadeFomento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coordenaProjeto"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desempenhou"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eCoordenadoPor"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eIdentificadoPor"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eOrientadoPor"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instituiçãoFinanciadora"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#noCurso"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofertaFormacao"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#orienta"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participaEmProjeto"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#podeFinanciarFormacao"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#podeSerFinanciado"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#podeSerFinanciado"/>
+        <Class IRI="#PosDoutorado"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produz"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#revisordeAgenciaFomento"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temAtuacao"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temFinanciadora"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temFormacao"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temFuncionario"/>
+        <Class IRI="#Instituição"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temInstituiçõesEnvolvidas"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temPesquisador"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temProficienciaEm"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trabalhaEm"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coordenaProjeto"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desempenhou"/>
+        <Class IRI="#LivreDocencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eCoordenadoPor"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eIdentificadoPor"/>
+        <Class IRI="#Identificacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eOrientadoPor"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofertaFormacao"/>
+        <Class IRI="#Formacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#orienta"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participaEmProjeto"/>
+        <Class IRI="#Projetos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#podeFinanciarFormacao"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#podeFinanciarFormacao"/>
+        <Class IRI="#PosDoutorado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#podeSerFinanciado"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produz"/>
+        <Class IRI="#Produções"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temAtuacao"/>
+        <Class IRI="#Atuação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temFormacao"/>
+        <Class IRI="#Formacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPesquisador"/>
+        <Class IRI="#Pesquisador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temProficienciaEm"/>
+        <Class IRI="#Idiomas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trabalhaEm"/>
+        <Class IRI="#Instituição"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </ObjectPropertyRange>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#CEP"/>
+        <DataProperty IRI="#CodigoEnderecamentoPostal"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#CPF"/>
+        <DataProperty IRI="#cadastroPessoaFisica"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#DDD"/>
+        <DataProperty IRI="#codigoDiscagemDiretaDistancia"/>
+    </EquivalentDataProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#anoDeInicioDoVinculo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#anoDeTerminoDoVinculo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cidade"/>
+        <DataProperty IRI="#país"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#possuiVinculoEmpregaticio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CEP"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CNPJEmpresa"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CPF"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CodigoEnderecamentoPostal"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CodigoPeriodico"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#D.O.I"/>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#D.O.I"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#D.O.I"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#D.O.I"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EstagioRealizado"/>
+        <Class IRI="#AtuaçãoEstagio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISBN"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ISSN"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#InstituiçãodeExecução"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OtherInformation"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OutrasInformaçoesSobreAInstituiçao"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OutrasInformações"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OutrasInformações"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OutrasInformações"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OutrasInformações"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PossuiDedicaçaoExclusiva"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoConclusaoCurso"/>
+        <Class IRI="#FormacaoRegular"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoDeInicioDoVinculo"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoDeTerminoDoVinculo"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoFim"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoInicialCurso"/>
+        <Class IRI="#FormacaoRegular"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoInicio"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoObtencaoTitulo"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoObtencaoTitulo"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoPremiacao"/>
+        <Class IRI="#PremiosTitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoPrevistoPublicação"/>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoProdução"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoProdução"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoProdução"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoProdução"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoProdução"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areadoConhecimento"/>
+        <Class IRI="#AreasdeAtuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areadoConhecimento"/>
+        <Class IRI="#Curso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areasConhecimento"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areasConhecimento"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areasConhecimento"/>
+        <Class IRI="#PosDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areasConhecimento"/>
+        <Class IRI="#ResidenciaMedica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areasdeConhecimento"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atividadedeExtençãoRealizada"/>
+        <Class IRI="#AtuaçaoExtensão"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atuaAtualmenteNestaInstituição"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atuaAtualmentenoComite"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atuaAtualmentenoCorpoEditorialdestePeriodico"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atuaAtualmentenoCorpoEditorialdestePeriodico"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atuaAtualmentenoCorpoEditorialdestePeriodico"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autorPublicação"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autorTraduzido"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autores"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bairro"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cargaHoraria"/>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cargaHoraria"/>
+        <Class IRI="#FormacaoComplementar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cargaHorariaSemanal"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cargo/função"/>
+        <Class IRI="#AtuaçãoConselhosComissõeseConsultoria"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cargo/função"/>
+        <Class IRI="#AtuaçãoDirAdm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidade"/>
+        <Class IRI="#DadosdoNascimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidade"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEditora"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEditora"/>
+        <Class IRI="#PartituraMusical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEditora"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEditora"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEvento"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cidadeEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#classificaçãodoEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#codigoDiscagemDiretaDistancia"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comBolsa"/>
+        <Class IRI="#FormacaoTecnicaouSuperior"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comite"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cor"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#códigodoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataEmissao"/>
+        <Class IRI="#Identidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataEmissao"/>
+        <Class IRI="#Passaporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataNascimento"/>
+        <Class IRI="#DadosdoNascimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataPublicação"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataValidade"/>
+        <Class IRI="#Passaporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripion"/>
+        <Class IRI="#TitulodaOrientação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descriçao"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disciplinasMinistradas"/>
+        <Class IRI="#AtuaçãoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#e-mailInstitucional"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eEnderecodeCorrespondencia"/>
+        <Class IRI="#EnderecoComercial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eEnderecodeCorrespondencia"/>
+        <Class IRI="#EnderecoResidencial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#editora"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#editora"/>
+        <Class IRI="#PartituraMusical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#editora"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#editoraTradução"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enderecoEmail"/>
+        <Class IRI="#Email"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enderecoFormaContatoEletronico"/>
+        <Class IRI="#OutraFormaContatoEletronico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enderecoRedeSocial"/>
+        <Class IRI="#RedesSociais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enquadramentoFuncional"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#entidadePromotora"/>
+        <Class IRI="#PremiosTitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eumdos5trabalhosmaisrelevantesdesuaprodução"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fascículo"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fascículo"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fascículoEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formaçãoInstrumental"/>
+        <Class IRI="#PartituraMusical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homePageEmpresa"/>
+        <Class IRI="#EnderecoComercial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homePagePessoal"/>
+        <Class IRI="#EnderecoResidencial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#homepageProdução"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#idiomaObraOriginal"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#idiomaProdução"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#incluirNovaAreadeConhecimento"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#incluirNovaPalavraChave"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#incluirnovoAutor"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#instituiçãoPromotoraEvento"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#linhasdePesquisa"/>
+        <Class IRI="#AtuaçãoP&amp;D"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#listarTodosAreasdeConhecimento"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#listarTodosAutores"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#listarTodosPalavrasChave"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#listarTodosSetoresTabelaCNAE"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localEvento"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localPublicação"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#logradouro"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesDeInicioDeVinculo"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesDeTerminoDeVinculo"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesObtencaoTitulo"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesObtencaoTitulo"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Class IRI="#MembroComiteAssessorame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Class IRI="#RevisorPeriodico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Class IRI="#RevisordeProjetodeAgenciaFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#natureza"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelEnsino"/>
+        <Class IRI="#AtuaçãoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelFormacao"/>
+        <Class IRI="#Formacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeAgenciaFinanciadora"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCitacao"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCompleto"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCompletoCoOrientador"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCompletoOrientador"/>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCompletoOrientador"/>
+        <Class IRI="#Graduacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCompletoOrientador"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCurso"/>
+        <Class IRI="#FormacaoComplementar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeCurso"/>
+        <Class IRI="#FormacaoRegular"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEditora"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEditora"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEmpresa"/>
+        <Class IRI="#Instituição"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEmpresa"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEvento"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeInstituicao"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeMae"/>
+        <Class IRI="#Filiacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomePai"/>
+        <Class IRI="#Filiacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomePremioTitulo"/>
+        <Class IRI="#PremiosTitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomedaAgenciadeFomento"/>
+        <Class IRI="#AgenciadeFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomedaÁreadeAtuação"/>
+        <Class IRI="#AreasdeAtuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomedoCurso"/>
+        <Class IRI="#Curso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomedoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#num.Edição/Revisão"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#num.Edição/Revisão"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroCaixaPostal"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroCatálogo"/>
+        <Class IRI="#PartituraMusical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroIdentidade"/>
+        <Class IRI="#Identidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#OutraProduçãoBibliográfica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#PartituraMusical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPassaporte"/>
+        <Class IRI="#Passaporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroRegistro"/>
+        <Class IRI="#ResidenciaMedica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroTelefone"/>
+        <Class IRI="#Telefone"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroVolumes"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#oProjetoPossuiPotencialdeInovaçãodeProdutosProcessosouServicos"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ordemArea"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ordemAutoria"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ordemPalavrasChave"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ordemSetores"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ordemdeImportancia"/>
+        <Class IRI="#AreasdeAtuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#orgão/Unidade"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#otherInformationProduções"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#outraAtividadeTecnicoCientifica"/>
+        <Class IRI="#AtuaçãoOutraAtividadeTecnicoCientifica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#outrasInformaçõesProduções"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paginaFinal"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paginaFinal"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paginaFinal"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paginaincial/num.ArtigoEletronico"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paginaincial/num.ArtigoEletronico"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#palavraChave"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#palavrasChave"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#palavrasChave"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#palavrasChave"/>
+        <Class IRI="#PosDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#palavrasChave"/>
+        <Class IRI="#ResidenciaMedica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#DadosdoNascimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#DemaisTipodeProduçõesBibliográficas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#país"/>
+        <Class IRI="#Passaporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paísPublicação"/>
+        <Class IRI="#ApresentaçãodeTrabalho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paísPublicação"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paísPublicação"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#paísdaAgenciadeFomento"/>
+        <Class IRI="#AgenciadeFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#periodico"/>
+        <Class IRI="#MembroCorpoEditorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#position"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#possuiVinculoEmpregaticio"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#projectName"/>
+        <Class IRI="#TitulodaOrientação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualPotencialdeInovaçãodoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#quantidadedeAlunosdeDoutoradonoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#quantidadedeAlunosdeEspecializaçãonoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#quantidadedeAlunosdeGraduaçãonoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoAcadêmiconoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoProfissionalizantenoProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ramal"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#residenciaMedicaEm"/>
+        <Class IRI="#ResidenciaMedica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serie"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serie"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serie"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serie"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serie"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serviçoRealizado"/>
+        <Class IRI="#AtuaçãoSerTecRealizado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#setor"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#setordeAplicaçãodaTabelaCNAE"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#setoresAplicacao"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#setoresAplicacao"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#setoresAplicacao"/>
+        <Class IRI="#ResidenciaMedica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sexo"/>
+        <Class IRI="#DadosPessoais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#siglaAgenciaFinanciadora"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#siglaInstituicao"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sigladaAgenciadeFomento"/>
+        <Class IRI="#AgenciadeFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#situação"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#statusCurso"/>
+        <Class IRI="#FormacaoComplementar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#statusCurso"/>
+        <Class IRI="#FormacaoRegular"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temPremio"/>
+        <Class IRI="#PremiosTitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#LivroseCapitulos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoDeAtuação"/>
+        <Class IRI="#Atuação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoDoVinculo"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoEmail"/>
+        <Class IRI="#Email"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoFormaContatoEletronico"/>
+        <Class IRI="#OutraFormaContatoEletronico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoFormacaoStrictuSensu"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoRedeSocial"/>
+        <Class IRI="#RedesSociais"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipodeProjeto"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titleProduções"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloAnaisEvento"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloDissertacaoTese"/>
+        <Class IRI="#MestradoDoutorado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloMonografia"/>
+        <Class IRI="#AperfeicoamentoEspecializacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloMonografia"/>
+        <Class IRI="#Graduacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloObraOriginal"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloProdução"/>
+        <Class IRI="#Produções"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tituloTrabalho"/>
+        <Class IRI="#LivreDocencia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulodoJonal/RevistaemqueoTextofoiPublicado"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulodoPeriodico/revistaemqueoArtigofoiPublicado"/>
+        <Class IRI="#ArtigoAceitoparaPublicação"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulodoPeriodico/revistaemqueoArtigofoiPublicado"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trabalhaAtualmenteNestaInstituiçao"/>
+        <Class IRI="#VinculoFuncional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#treinamentoMinistrado"/>
+        <Class IRI="#AtuaçãoTreinamento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Class IRI="#AgenciaFinanciadora"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Class IRI="#DadosdoNascimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Class IRI="#Endereco"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Class IRI="#Identidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Class IRI="#InstituicaoEnsino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeFederativadaAgenciadeFomento"/>
+        <Class IRI="#AgenciadeFomento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unidadeNegocioEmpresa"/>
+        <Class IRI="#Instituição"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valorFinanciado"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vinculadoaInstutuição"/>
+        <Class IRI="#Curso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#ArtigoCompletoPublicadoemPeriódico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#Prefácio/posfácio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#TextoemJornalouRevista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#TrabalhosPublicadosemAnaisdeEventos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#Tradução"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#éumProjetodeCoorperaçãoInstituiçãodePesquisaeEmpresa"/>
+        <Class IRI="#Projetos"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#CEP"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CNPJEmpresa"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CPF"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CodigoEnderecamentoPostal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CodigoPeriodico"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#D.O.I"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EstagioRealizado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ISBN"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ISSN"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#InstituiçãodeExecução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OtherInformation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OutrasInformaçoesSobreAInstituiçao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OutrasInformações"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PossuiDedicaçaoExclusiva"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoConclusaoCurso"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoDeInicioDoVinculo"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoDeTerminoDoVinculo"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoEvento"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoFim"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoInicialCurso"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoInicio"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoObtencaoTitulo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoPremiacao"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoPrevistoPublicação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoProdução"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anodeIniciodaAtuação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anodeTerminodaAtuação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#areadoConhecimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#areasConhecimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#areasdeConhecimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atividadedeExtençãoRealizada"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atuaAtualmenteNestaInstituição"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atuaAtualmentenoComite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atuaAtualmentenoCorpoEditorialdestePeriodico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#autorPublicação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#autorTraduzido"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#autores"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bairro"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cargaHoraria"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cargaHorariaSemanal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cargo/função"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cidade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cidadeEditora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cidadeEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#classificaçãodoEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#codigoDiscagemDiretaDistancia"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#comBolsa"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#comite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#códigodoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataEmissao"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataNascimento"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataPublicação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataValidade"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#descripion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#descriçao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disciplinasMinistradas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#e-mailInstitucional"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eEnderecodeCorrespondencia"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#editora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#editoraTradução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enderecoEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enderecoFormaContatoEletronico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enderecoRedeSocial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enquadramentoFuncional"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#entidadePromotora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eumaproduçãoparaEducaçãoePopulariazaçãodeCET"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eumdos5trabalhosmaisrelevantesdesuaprodução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fascículo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fascículoEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formaçãoInstrumental"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#homePageEmpresa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#homePagePessoal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#homepageProdução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#idiomaObraOriginal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#idiomaProdução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#incluirNovaAreadeConhecimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#incluirNovaPalavraChave"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#incluirnovoAutor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#instituiçãoPromotoraEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#linhasdePesquisa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#listarTodosAreasdeConhecimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#listarTodosAutores"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#listarTodosPalavrasChave"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#listarTodosSetoresTabelaCNAE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#localPublicação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#logradouro"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#meioDivulgaçãoProdução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mesDeInicioDeVinculo"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mesDeTerminoDeVinculo"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mesObtencaoTitulo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mesdeIniciodaAtuação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mesdeTerminodaAtuação"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#natureza"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelEnsino"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelFormacao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeAgenciaFinanciadora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeCitacao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeCompleto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeCompletoCoOrientador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeCompletoOrientador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeCurso"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeEditora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeEmpresa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeInstituicao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeMae"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomePai"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomePremioTitulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomedaAgenciadeFomento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomedaÁreadeAtuação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomedoCurso"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomedoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#num.Edição/Revisão"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroCaixaPostal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroCatálogo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroIdentidade"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPassaporte"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroRegistro"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroTelefone"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroVolumes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#oProjetoPossuiPotencialdeInovaçãodeProdutosProcessosouServicos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ordemArea"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ordemAutoria"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ordemPalavrasChave"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ordemSetores"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ordemdeImportancia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#orgão/Unidade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#otherInformationProduções"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#outraAtividadeTecnicoCientifica"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#outrasInformaçõesProduções"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#paginaFinal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#paginaincial/num.ArtigoEletronico"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#palavraChave"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#palavrasChave"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#país"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#paísPublicação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#paísdaAgenciadeFomento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#periodico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#position"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#possuiVinculoEmpregaticio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#projectName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualPotencialdeInovaçãodoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#quantidadedeAlunosdeDoutoradonoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#quantidadedeAlunosdeEspecializaçãonoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#quantidadedeAlunosdeGraduaçãonoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoAcadêmiconoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#quantidadedeAlunosdeMestradoProfissionalizantenoProjeto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ramal"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#residenciaMedicaEm"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#serie"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#serviçoRealizado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#setor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#setordeAplicaçãodaTabelaCNAE"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#setoresAplicacao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sexo"/>
+        <Datatype abbreviatedIRI="xsd:byte"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#siglaAgenciaFinanciadora"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#siglaInstituicao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sigladaAgenciadeFomento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#situação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#statusCurso"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temPremio"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoDeAtuação"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoDoVinculo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoFormaContatoEletronico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoFormacaoStrictuSensu"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoRedeSocial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipodeProjeto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titleProduções"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloAnaisEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloDissertacaoTese"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloMonografia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloObraOriginal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloProdução"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tituloTrabalho"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titulodoJonal/RevistaemqueoTextofoiPublicado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titulodoPeriodico/revistaemqueoArtigofoiPublicado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#trabalhaAtualmenteNestaInstituiçao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#treinamentoMinistrado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadeFederativa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadeFederativadaAgenciadeFomento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unidadeNegocioEmpresa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valorFinanciado"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vinculadoaInstutuição"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#volume"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#éumProjetodeCoorperaçãoInstituiçãodePesquisaeEmpresa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
